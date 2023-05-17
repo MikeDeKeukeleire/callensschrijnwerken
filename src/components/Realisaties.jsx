@@ -16,7 +16,7 @@ export default function Realisaties() {
             <ImageSliderRdp />
           </div>
           <div className="mt-8">
-            <a href="/contact" className="bg-tcprimary rounded p-4">
+            <a href="/#contact" className="bg-tcprimary rounded p-4">
               Neem contact op!
             </a>
           </div>

@@ -4,19 +4,19 @@ import Realisaties from "./components/Realisaties"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Router>
     <Navbar/>
-    <Routes>
+    <Switch>
       <Route exact path="/" element={<Home />} />
       <Route exact path="/realisaties" element={<Realisaties />} />
       <Route exact path="/contact" element={<Contact />} />
-    </Routes>
+    </Switch>
     <Footer/>
-    </>
+    </Router>
   );
 }
 

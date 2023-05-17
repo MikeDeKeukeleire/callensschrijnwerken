@@ -13,10 +13,10 @@ export default function Home() {
           <h1>Ramen, deuren & poorten</h1>
         </div>
         <div className="mt-8 flex justify-center gap-16">
-          <a href="/realisaties" className="max-w-cust">
+          <a href="/#realisaties" className="max-w-cust">
             <img src={rea} className="w-full rounded-xl shadow mx-auto" />
           </a>
-          <a href="/contact" className="max-w-cust">
+          <a href="/#contact" className="max-w-cust">
             <img src={con} className="w-full rounded-xl shadow mx-auto" />
           </a>
         </div>
