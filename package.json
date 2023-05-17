@@ -1,5 +1,6 @@
 {
-  "name": "flaco",
+  "homepage": "https://callensschrijnwerken.be/",
+  "name": "callensschrijnwerken",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
