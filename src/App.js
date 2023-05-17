@@ -9,13 +9,19 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-    <Navbar/>
-    <Switch>
-      <Route exact path="/" element={<Home />} />
-      <Route exact path="/realisaties" element={<Realisaties />} />
-      <Route exact path="/contact" element={<Contact />} />
-    </Switch>
-    <Footer/>
+      <Navbar/>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/realisaties" exact>
+          <Realisaties />
+        </Route>
+        <Route path="/contact" exact>
+          <Contact />
+        </Route>
+      </Switch>
+      <Footer/>
     </Router>
   );
 }
