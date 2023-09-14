@@ -1,7 +1,10 @@
 import { React, useState, useEffect } from "react";
+import alg0 from "../media/realisaties/algemeen/alg0.png";
 import alg1 from "../media/realisaties/algemeen/alg1.png";
 import alg2 from "../media/realisaties/algemeen/alg2.png";
-const images = [alg1, alg2];
+import alg3 from "../media/realisaties/algemeen/alg3.png";
+import alg4 from "../media/realisaties/algemeen/alg4.png";
+const images = [alg0, alg4, alg1, alg3, alg2];
 let count = 0;
 
 const ImageSliderAlg = () => {
